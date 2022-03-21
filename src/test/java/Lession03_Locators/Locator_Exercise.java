@@ -31,6 +31,7 @@ public class Locator_Exercise {
         System.out.println(driver.findElement(By.cssSelector("input[myname='selenium']")));
         System.out.println(driver.findElement(By.xpath("//div[@id=\"contact_info_left\"]/button")));
 
+
     }
 
     @AfterClass

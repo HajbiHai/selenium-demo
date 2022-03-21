@@ -1,16 +1,12 @@
 package Lession02_WebDriver;
 
-import com.sun.deploy.security.SelectableSecurityManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class HomeworkExecrcise
-{
-    WebDriver driver;
+public class homeworkExecrcise extends BaseDriver {
 
     @BeforeClass
     public void openBrowser(){
@@ -33,7 +29,9 @@ public class HomeworkExecrcise
     @AfterClass
     public void closeBrowser(){
         driver.quit();
+        driver.close();
     }
+
 
 
 

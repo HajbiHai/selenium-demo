@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
-public class Lession05_Asserts_Verifications {
+public class Asserts_Verifications {
 
     WebDriver driver;
     @BeforeClass()
